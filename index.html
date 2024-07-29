@@ -1,0 +1,25 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Click Example</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        // Эта функция будет вызываться при нажатии кнопки
+        function onButtonClick(buttonNumber) {
+            // alert('Твая мать шлюха!'+ buttonNumber + 'ты лалка');
+            alert(buttonNumber);
+            // Здесь можно добавить любой другой код, который должен выполниться при нажатии кнопки
+        }
+    </script>
+</head>
+<body>
+    <!-- Создаем кнопку и связываем её с функцией onButtonClick -->
+    <div class="button-container">
+    <button onclick="onButtonClick('Твая мать шлюха!')">НАЖМИ СЮДА</button>
+    <button onclick="onButtonClick('ты лалка')">ИЛИ СЮДА</button>
+    <button onclick="onButtonClick('ты пупсич')">А МОЖЕТ СЮДА</button>
+    </div>
+</body>
+</html>
